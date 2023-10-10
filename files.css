@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap');
+
+*{
+    margin: 0;
+
+}
+
+.main{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.mainpic{
+    background-image: url("./images/hero.png");
+    height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100vw 100vh;
+}
+
+.nav{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    height: 20vh;
+
+}
+
+.brandname{
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    justify-content: space-between;
+    margin-top: 30px;
+    /* margin-left: -50px; */
+    color: white;
+
+}
+
+
+.stuff{
+    margin: 12px;
+    
+
+}
+
+.right{
+    display: flex;
+    margin-right: 100px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: white;
+    gap: 20px;
+}
+
+.right a, .stuff a{
+    text-decoration: none;
+    color: white;
+}
+
+.member button{
+    background-color: #2E98F4;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: hidden;
+}
+
+.login{
+    margin-top: 30px;
+}
+
+.middlecont{
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: white;
+    height: 300px;
+}
+
+.middlecont h1 {
+    margin: auto;
+    width: 70%;
+}
+
+.upperbuttons{
+    margin: auto;
+    width: 50%;
+
+}
+
+.middlecont p{
+    margin: auto;
+    width: 85%;
+}
+
+.upperbuttons > button{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    /* color: white; */
+    width: 120px;
+    height: 30px;
+}
+
+.upperboxes{
+    display: flex;
+    /* gap: 20px; */
+    width: 70%;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+
+.upperboxitem{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: white;
+    padding: 8px;
+    justify-content: center;
+    gap: 10px;
+    width: 30%;
+    box-shadow: ;
+
+}
+
+.iconhuman ion-icon{
+    font-size: 40px;
+    color: #2E98F4;
+}
+
+.upperboxitem p,.lowboxitem p, .industry p, .pbox p, .pricing p {
+    font-size: 13px;
+    color: gray;
+}
+
+.lowerboxes{
+    flex-direction: row;
+
+    display: flex;
+    width: 70%;
+    margin-top: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+ 
+}
+
+.lowboxitem ion-icon{
+    font-size: 48px;
+    color: #2E98F4;
+}
+
+.lowboxitem h4{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.lowboxitem p{
+    margin-top: 10px;
+}
+
+.industry{
+    width: 50%;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+.industry h3{
+    font-size: 32px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.industry p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+.people{
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+    gap: 30px;
+
+
+}
+
+.pbox img{
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+}
+
+.pbox{
+    border-color: rgb(214, 208, 208);
+    border-style: solid;
+    height: 280px;
+    border-radius: 5px;
+    border-width: thin;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.stars ion-icon {
+    color: yellow;
+}
+
+.stars img{
+    width: 15px;
+    height: 15px;
+}
+
+.logos{
+    display: flex;
+    width: 90%;
+    margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+}
+
+.logos img {
+    width: 20px;
+    height: 20px;
+}
+
+.subscribe{
+    padding: 25px;
+    align-items: center;
+    margin-top: 40px;
+    width: 80%;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(
+        90deg,
+        #26348A,
+        rgb(205, 53, 205)
+    );
+    color: white;
+}
+
+.sub1{
+    font-size: 32px;
+}
+
+.login{
+    background-color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 35%;
+    height: 70%;
+    border-radius: 20px;
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login button{
+    height: 100%;
+    background-color: #2E98F4;
+    margin-right: 0;
+}
+
+.login input{
+    border-style: none;
+}
+
+.pricing{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.pricing h2{
+    font-size: 32px;
+}
+
+.fsp{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+ 
+.fspitem{
+    border-style: solid;
+    border-color: #2E98F4;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 250px;
+    height: 450px;
+    padding: 12px 10px 12px 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.fspitem h1{
+    font-size: 24px;
+    margin-bottom: 8px;
+    margin-top: 15px;
+}
+
+.fspitem h3{
+    font-size: 16px;
+    color: darkgray;
+    margin-top: 20px;
+}
+
+.dollars{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    color: #2E98F4;
+    margin-bottom: 30px;
+
+}
+
+.number{
+    height: 100%;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.usd{
+    font-weight: bolder;
+}
+
+.same1{
+    display: flex;
+    text-align: center;
+    margin-left: 12px;
+    margin-top: 12px;
+    color: white;
+}
+
+.fspitem button{
+    margin-top: 20px;
+    background-color: #2E98F4;
+    width: 110px;
+    height: 30px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.world{
+    background-color: #2C2A45;
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    gap: 50px;
+
+
+}
+
+.leftworld{
+    color: white;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+.leftworld h1{
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
+
+.rigthworld{
+    
+}
+.rightworld img{
+    width: 400px;
+    height: 200px;
+    margin-right: 100px;
+    margin-top: 100px;
+
+}
+.book{
+    display: flex;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fahmpic img{
+    width: 200px;
+    height: 450px;
+    
+}
+
+.rightbook{
+    text-align: center;
+    width: 425.8px;
+}
+
+.rightbook h3{
+    margin-top: 30px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.formz{
+    text-align: left;
+    margin-left: 24px;
+    /* width: 80%; */
+}
+
+
+.formz label{
+    font-size: 18px;
+    margin-top: 12px;
+    /* margin-bottom: 12px; */
+}
+
+.inputz{
+    width: 300px;
+}
+
+.secondlast{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secondlast button{
+    background-color: #2E98F4;
+    color: white;
+    border-radius: 5px;
+}
+
+.last{
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.lb h6 { 
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.lb span{
+    font-size: 16px;
+    color: darkgray;
+}
