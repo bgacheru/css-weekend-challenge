@@ -70,12 +70,13 @@
     color: white;
     width: 200px;
     height: 40px;
-    border-radius: 10px;
+    border-radius: 5px;
     border-style: hidden;
 }
 
 .login{
-    margin-top: 30px;
+    margin-top: 10px;
+    font-size: 12px;
 }
 
 .middlecont{
@@ -83,24 +84,42 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    color: white;
+    /* color: white; */
     height: 300px;
 }
 
 .middlecont h1 {
     margin: auto;
-    width: 70%;
+    width: 80%;
+    font-weight: bolder;
+    font-size: 48px;
+    color: white;
 }
 
 .upperbuttons{
     margin: auto;
     width: 50%;
+    height: 50px;
 
+}
+.bigbtn {
+    background-color: transparent;
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-weight: bolder;
+}
+
+.bigbtn:hover {
+    background-color: #2E98F4;
+    color: white;
 }
 
 .middlecont p{
     margin: auto;
     width: 85%;
+    text-align: center;
+    color: white;
 }
 
 .upperbuttons > button{
@@ -158,6 +177,7 @@
     justify-content: space-around;
     align-items: center;
     height: 150px;
+    text-align: center;
  
 }
 
@@ -177,10 +197,11 @@
 
 .industry{
     width: 50%;
-    margin-top: 200px;
+    margin-top: 170px;
     margin-left: auto;
     margin-right: auto;
     height: 100%;
+    text-align: center;
 }
 
 .industry h3{
@@ -189,6 +210,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
+    font-weight: 700;
 }
 
 .industry p{
@@ -231,9 +253,13 @@
     justify-content: space-around;
 
 }
+.stars img{
+    /* background-color: yellow; */
+}
 
 .stars ion-icon {
-    color: yellow;
+    color: #EF9546;
+    /* background-color: yellow; */
 }
 
 .stars img{
@@ -251,8 +277,8 @@
 }
 
 .logos img {
-    width: 20px;
-    height: 20px;
+    width: 100px;
+    height: 40px;
 }
 
 .subscribe{
@@ -277,7 +303,7 @@
     font-size: 32px;
 }
 
-.login{
+.loginn{
     background-color: white;
     margin-top: auto;
     margin-bottom: auto;
@@ -289,13 +315,13 @@
     justify-content: space-between;
 }
 
-.login button{
+.loginn button{
     height: 100%;
     background-color: #2E98F4;
     margin-right: 0;
 }
 
-.login input{
+.loginn input{
     border-style: none;
 }
 
@@ -316,6 +342,7 @@
     justify-content: center;
     margin-top: 60px;
     margin-bottom: 120px;
+    gap: 0.5px;
 }
  
 .fspitem{
@@ -328,12 +355,14 @@
     padding: 12px 10px 12px 10px;
     text-align: center;
     justify-content: center;
-}
+    
 
 .fspitem h1{
     font-size: 24px;
     margin-bottom: 8px;
     margin-top: 15px;
+    
+}
 }
 
 .fspitem h3{
@@ -366,7 +395,15 @@
     text-align: center;
     margin-left: 12px;
     margin-top: 12px;
-    color: white;
+    color: black;
+}
+
+.circle ion-icon{
+    background-color: rgb(16, 115, 16);
+}
+
+.circle1 ion-icon{
+    background-color: none;
 }
 
 .fspitem button{
@@ -382,7 +419,6 @@
     background-color: #2C2A45;
     width: 100vw;
     height: 100vh;
-    padding: 50px;
     display: flex;
     gap: 50px;
 
@@ -401,9 +437,8 @@
 }
 
 
-.rigthworld{
     
-}
+
 .rightworld img{
     width: 400px;
     height: 200px;
@@ -416,6 +451,7 @@
     width: 60vw;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -220px;
 }
 
 .fahmpic img{
@@ -427,10 +463,11 @@
 .rightbook{
     text-align: center;
     width: 425.8px;
+    background-color: white;
 }
 
 .rightbook h3{
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 24px;
     margin-bottom: 30px;
 }
@@ -449,7 +486,16 @@
 }
 
 .inputz{
-    width: 300px;
+    width: 360px;
+}
+
+.app{
+    /* width: 360px; */
+    color: white;
+    background-color: #2E98F4;
+    width: 80%;
+    height: 40px;
+    border-style: none;
 }
 
 .secondlast{
@@ -477,11 +523,53 @@
 }
 
 .lb h6 { 
-    font-size: 16px;
+    font-size: 13px;
     font-weight: bold;
 }
 
 .lb span{
     font-size: 16px;
     color: darkgray;
+}
+
+.leftlast h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 550;
+
+}
+
+.leftlast p{
+    color: darkgray;
+    font-size: 12px;
+}
+
+.us{
+    background-color: #2E98F4;
+    border-style: none;
+    width: 150px;
+
+}
+
+.social ion-icon {
+    background-color: #2E98F4;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.rightfoot{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-right: 200px;
+}
+
+
+@media screen and (max-width: 797px) {
+    
+    
 }
